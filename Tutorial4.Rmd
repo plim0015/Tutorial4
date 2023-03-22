@@ -1,11 +1,36 @@
 ---
-title: "Tutorial4"
+title: "Learning to reference figures"
 author: "PeiNiLim_30992052"
 date: "2023-03-22"
 output: html_document
 ---
 
+#Learning to reference figures
+
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = TRUE, fig.align = "center")
 ```
+
+
+##control+option+i = new r chunk
+```{r}
+library(tidyverse)
+```
+
+```{r Figuref}
+x = seq(1:100)
+y = rnorm(100)
+y
+
+dat = data.frame(x, y)
+dat
+
+ggplot(dat, aes(x = x, y = y)) +
+  geom_line()
+
+```
+
+This is random noise
+
+
 
