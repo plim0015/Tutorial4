@@ -7,3 +7,4 @@ In this tutorial we are learning to create and merge branches as well as includi
 our local repo
 
 We are going to create branches using the terminal
+This is a line from Feature
