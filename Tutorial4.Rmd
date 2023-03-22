@@ -17,7 +17,7 @@ knitr::opts_chunk$set(echo = TRUE, fig.align = "center")
 library(tidyverse)
 ```
 
-```{r Figuref}
+```{r Figuref = "This is random noise"}
 x = seq(1:100)
 y = rnorm(100)
 y
@@ -29,8 +29,10 @@ ggplot(dat, aes(x = x, y = y)) +
   geom_line()
 
 ```
+Above figure is random noise
 
-This is random noise
+
+
 
 
 
